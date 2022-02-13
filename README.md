@@ -2,7 +2,8 @@
 
 Object tracking = object detection + tracker.
 
-So, any detector can be used as long as it returns its detections as a series of (x, y) points.
+So, any detector can be used as long as it returns its detections as a series of (x, y) points. <br/>
+In this case RetinaNet from Detectron2 was used, in addition to Norfair to tack the objects
 
 ### Detector
 [Detectron2](https://github.com/facebookresearch/detectron2)
@@ -10,8 +11,9 @@ So, any detector can be used as long as it returns its detections as a series of
 ### Tracker
 [Norfair](https://github.com/tryolabs/norfair)
 
-
 ### Video
+Credit: [race](https://www.youtube.com/watch?v=IR1Kkmha2Zk)
+
 https://user-images.githubusercontent.com/28225321/153749513-36054e73-b6cc-4a1c-9ba1-4428ad808aac.mp4
 
 
